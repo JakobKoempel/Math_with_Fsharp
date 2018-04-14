@@ -6,21 +6,22 @@ type Triplet = {
     c : int
 }
 
-let isSquare (x : int ) : bool = 
-    let root = int (sqrt (float x))
-    root * root = x
+let isNaturalNumber (x : float) : bool = 
+    if x % 1.0 = 0.0 then true
+    else false
 
 let findTripletWithCircumferenceOf (limit : int) : Triplet =
-    let hypotenuse (a : int, b : int) : int = int (sqrt(float(a * a + b * b)))
+    let hypotenuse (a : int, b : int) : float = sqrt(float(a * a + b * b))  
     let rec f (a : int, b : int) : Triplet =
         let c = hypotenuse (a, b)
-        if isSquare c = false then f (a, b + 1)
-        else match a + b + c with
-             | Cf when Cf < limit -> f (a, b + 1)
-             | Cf when Cf > limit -> f (a + 1, a + 2)
-             | _ -> {a = a ; b = b ; c = c}
+        if isNaturalNumber c = false then f (a, b + 1)
+        else match a + b + int c with
+                | Cf when Cf < limit -> f (a, b + 1)
+                | Cf when Cf > limit -> f (a + 1, a + 2)
+                | _ -> {a = a ; b = b ; c = int c}
     f (1, 2)
-          
-printfn("%A") <| findTripletWithCircumferenceOf 1000
+
+let resultTriplet =  findTripletWithCircumferenceOf 1000       
+printfn("%A") <| (resultTriplet.a * resultTriplet.b * resultTriplet.c)
 
 Console.ReadKey() |> ignore
