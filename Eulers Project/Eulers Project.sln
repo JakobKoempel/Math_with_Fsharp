@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex007_10001_prime", "ex007_10001_prime\ex007_10001_prime.fsproj", "{6ABB45D4-E76C-4BA4-B7D7-D90A2C40D66F}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex006_sum_square_difference", "ex006_sum_square_difference\ex006_sum_square_difference.fsproj", "{4E06ACB2-4D3B-4146-B578-C8B9EDFCED32}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex008_special_Pythagorean_triplet", "ex008_special_Pythagorean_triplet\ex008_special_Pythagorean_triplet.fsproj", "{8C6642DB-8272-484F-A3E6-C248A522124C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6ABB45D4-E76C-4BA4-B7D7-D90A2C40D66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ABB45D4-E76C-4BA4-B7D7-D90A2C40D66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ABB45D4-E76C-4BA4-B7D7-D90A2C40D66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E06ACB2-4D3B-4146-B578-C8B9EDFCED32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E06ACB2-4D3B-4146-B578-C8B9EDFCED32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E06ACB2-4D3B-4146-B578-C8B9EDFCED32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E06ACB2-4D3B-4146-B578-C8B9EDFCED32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6642DB-8272-484F-A3E6-C248A522124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6642DB-8272-484F-A3E6-C248A522124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6642DB-8272-484F-A3E6-C248A522124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6642DB-8272-484F-A3E6-C248A522124C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
