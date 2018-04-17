@@ -3,9 +3,10 @@
 let (x : int) = 10001
 let n = seq {yield 2; yield! Seq.initInfinite (fun i -> i * 2 + 3) }
 
-let isPrime (x : int) : bool = //only uneven numbers larger than 2 or 2 can be given as an argument
+let isPrime (x : int) : bool = //only natural numbers
     match x with
-    | _ when x = 2 -> true // _ when x > 2 && x % 2 = 0 -> false
+    | _ when 2 = x -> true   
+    | _ when 2 > x  || x % 2 = 0 -> false 
     | _ ->
         let maxDiv = int (sqrt (float x)) 
         let rec f (d : int) : bool = 

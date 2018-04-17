@@ -5,7 +5,8 @@ let n : seq<int64> = seq {yield 2L; yield! Seq.initInfinite (fun i -> (int64 i *
 
 let isPrime (x : int64) : bool = 
     match x with
-    | _  when x = 2L -> true
+    |_ when 2L = x -> true   
+    | _ when 2L > x  || x % 2L = 0L -> false 
     | _ ->
         let maxDiv = int64 (sqrt (float x)) 
         let rec f (d : int64) : bool = 
@@ -16,6 +17,6 @@ let isPrime (x : int64) : bool =
 
 let primesSummed = Seq.filter (isPrime) n |> Seq.sum
 
-printfn ("All prime numbers under 2 million summed : %i") <| int primesSummed
+printfn ("All prime numbers under 2 million summed : %A") <| primesSummed 
 
 Console.ReadKey () |> ignore
