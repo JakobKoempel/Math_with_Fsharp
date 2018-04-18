@@ -1,11 +1,4 @@
 # Project-Euler-f-
-## hello whatsup
 
-tjosan
-hoppsan
-hejsan
+This repository contains my solutions for problems, uploaded on the website [Project Euler](https://projecteuler.net/about). 
 ---
-
-```fsharp
-let f x = x * 2
-```
