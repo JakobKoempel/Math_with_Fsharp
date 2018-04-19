@@ -7,4 +7,3 @@ File.ReadLines "Series.txt"
 |> Seq.map (Array.reduce (*))
 |> Seq.max 
 |> printfn("%i")
-
