@@ -17,7 +17,7 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex014_longest_Collatz_seque
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex012_highly_divisible_triangular_numbers", "ex012_highly_divisible_triangular_numbers\ex012_highly_divisible_triangular_numbers.fsproj", "{E92EDA0E-6499-4089-B5D0-F42E838FBBC6}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex090_special_Pythagorean_triplet", "ex090_special_Pythagorean_triplet\ex090_special_Pythagorean_triplet.fsproj", "{4364753E-658D-45FA-98A9-A443BAA81029}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex009_special_Pythagorean_triplet", "ex009_special_Pythagorean_triplet\ex009_special_Pythagorean_triplet.fsproj", "{A2FAD109-91C3-4F5D-B2B9-F59C6FF26708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{E92EDA0E-6499-4089-B5D0-F42E838FBBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E92EDA0E-6499-4089-B5D0-F42E838FBBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E92EDA0E-6499-4089-B5D0-F42E838FBBC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4364753E-658D-45FA-98A9-A443BAA81029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4364753E-658D-45FA-98A9-A443BAA81029}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4364753E-658D-45FA-98A9-A443BAA81029}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4364753E-658D-45FA-98A9-A443BAA81029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FAD109-91C3-4F5D-B2B9-F59C6FF26708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FAD109-91C3-4F5D-B2B9-F59C6FF26708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FAD109-91C3-4F5D-B2B9-F59C6FF26708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FAD109-91C3-4F5D-B2B9-F59C6FF26708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
