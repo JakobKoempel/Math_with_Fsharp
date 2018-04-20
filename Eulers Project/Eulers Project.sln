@@ -7,17 +7,17 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex007_10001_prime", "ex007_
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex006_sum_square_difference", "ex006_sum_square_difference\ex006_sum_square_difference.fsproj", "{4E06ACB2-4D3B-4146-B578-C8B9EDFCED32}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex008_special_Pythagorean_triplet", "ex008_special_Pythagorean_triplet\ex008_special_Pythagorean_triplet.fsproj", "{8C6642DB-8272-484F-A3E6-C248A522124C}"
-EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex010_summation_of_primes", "ex010_summation_of_primes\ex010_summation_of_primes.fsproj", "{4BA19735-3A0B-4697-BA16-7CA1356FC67A}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex001_multiples_of_3_and_5", "ex001_multiples_of_3_and_5\ex001_multiples_of_3_and_5.fsproj", "{1FA5C6F6-0182-4190-A64E-1662F2F939C4}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex008_largest_product_in_a_series", "ex008_largest_product_in_a_series\ex008_largest_product_in_a_series.fsproj", "{53BC87E0-4E31-46BA-A8D1-5EC5580998F4}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex12_highly_divisble_triangular_number", "ex12_highly_divisble_triangular_number\ex12_highly_divisble_triangular_number.fsproj", "{AE85CC01-E621-431F-B6C9-3FCF0C308872}"
-EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex014_longest_Collatz_sequence", "ex014_longest_Collatz_sequence\ex014_longest_Collatz_sequence.fsproj", "{F241A9B4-BD51-4C7F-9A3A-0D27E3AC1BED}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex012_highly_divisible_triangular_numbers", "ex012_highly_divisible_triangular_numbers\ex012_highly_divisible_triangular_numbers.fsproj", "{E92EDA0E-6499-4089-B5D0-F42E838FBBC6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex090_special_Pythagorean_triplet", "ex090_special_Pythagorean_triplet\ex090_special_Pythagorean_triplet.fsproj", "{4364753E-658D-45FA-98A9-A443BAA81029}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +33,6 @@ Global
 		{4E06ACB2-4D3B-4146-B578-C8B9EDFCED32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E06ACB2-4D3B-4146-B578-C8B9EDFCED32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E06ACB2-4D3B-4146-B578-C8B9EDFCED32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C6642DB-8272-484F-A3E6-C248A522124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C6642DB-8272-484F-A3E6-C248A522124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C6642DB-8272-484F-A3E6-C248A522124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C6642DB-8272-484F-A3E6-C248A522124C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BA19735-3A0B-4697-BA16-7CA1356FC67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BA19735-3A0B-4697-BA16-7CA1356FC67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA19735-3A0B-4697-BA16-7CA1356FC67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,14 +45,18 @@ Global
 		{53BC87E0-4E31-46BA-A8D1-5EC5580998F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53BC87E0-4E31-46BA-A8D1-5EC5580998F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53BC87E0-4E31-46BA-A8D1-5EC5580998F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE85CC01-E621-431F-B6C9-3FCF0C308872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE85CC01-E621-431F-B6C9-3FCF0C308872}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE85CC01-E621-431F-B6C9-3FCF0C308872}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE85CC01-E621-431F-B6C9-3FCF0C308872}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F241A9B4-BD51-4C7F-9A3A-0D27E3AC1BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F241A9B4-BD51-4C7F-9A3A-0D27E3AC1BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F241A9B4-BD51-4C7F-9A3A-0D27E3AC1BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F241A9B4-BD51-4C7F-9A3A-0D27E3AC1BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92EDA0E-6499-4089-B5D0-F42E838FBBC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92EDA0E-6499-4089-B5D0-F42E838FBBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92EDA0E-6499-4089-B5D0-F42E838FBBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92EDA0E-6499-4089-B5D0-F42E838FBBC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4364753E-658D-45FA-98A9-A443BAA81029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4364753E-658D-45FA-98A9-A443BAA81029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4364753E-658D-45FA-98A9-A443BAA81029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4364753E-658D-45FA-98A9-A443BAA81029}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
