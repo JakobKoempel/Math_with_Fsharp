@@ -19,6 +19,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex012_highly_divisible_tria
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex009_special_Pythagorean_triplet", "ex009_special_Pythagorean_triplet\ex009_special_Pythagorean_triplet.fsproj", "{A2FAD109-91C3-4F5D-B2B9-F59C6FF26708}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex16_power_digit_sum", "ex16_power_digit_sum\ex16_power_digit_sum.fsproj", "{F70890F9-AE34-4FDC-8ADD-5C9C3E981C57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{A2FAD109-91C3-4F5D-B2B9-F59C6FF26708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2FAD109-91C3-4F5D-B2B9-F59C6FF26708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2FAD109-91C3-4F5D-B2B9-F59C6FF26708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70890F9-AE34-4FDC-8ADD-5C9C3E981C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70890F9-AE34-4FDC-8ADD-5C9C3E981C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70890F9-AE34-4FDC-8ADD-5C9C3E981C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70890F9-AE34-4FDC-8ADD-5C9C3E981C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
