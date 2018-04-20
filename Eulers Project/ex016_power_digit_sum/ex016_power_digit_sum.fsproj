@@ -5,15 +5,15 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>f70890f9-ae34-4fdc-8add-5c9c3e981c57</ProjectGuid>
+    <ProjectGuid>3e1f83a2-6630-4879-9267-ab005aed0e72</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ex16_power_digit_sum</RootNamespace>
-    <AssemblyName>ex16_power_digit_sum</AssemblyName>
+    <RootNamespace>ex016_power_digit_sum</RootNamespace>
+    <AssemblyName>ex016_power_digit_sum</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <UseStandardResourceNames>true</UseStandardResourceNames>
     <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
-    <Name>ex16_power_digit_sum</Name>
+    <Name>ex016_power_digit_sum</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

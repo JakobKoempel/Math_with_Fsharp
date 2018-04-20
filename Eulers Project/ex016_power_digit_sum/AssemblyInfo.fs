@@ -1,4 +1,4 @@
-﻿namespace ex16_power_digit_sum.AssemblyInfo
+﻿namespace ex016_power_digit_sum.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("ex16_power_digit_sum")>]
+[<assembly: AssemblyTitle("ex016_power_digit_sum")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("ex16_power_digit_sum")>]
+[<assembly: AssemblyProduct("ex016_power_digit_sum")>]
 [<assembly: AssemblyCopyright("Copyright ©  2018")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("f70890f9-ae34-4fdc-8add-5c9c3e981c57")>]
+[<assembly: Guid("3e1f83a2-6630-4879-9267-ab005aed0e72")>]
 
 // Version information for an assembly consists of the following four values:
 // 

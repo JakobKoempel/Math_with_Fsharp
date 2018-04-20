@@ -1,9 +1,8 @@
 ﻿let n = seq {yield 2; yield! Seq.initInfinite (fun i -> i * 2 + 3) }
 
-let isPrime (x : int) : bool = //only natural numbers
+let isPrime (x : int) : bool = 
     match x with
     | _ when 2 = x -> true   
-    //| _ when 2 > x  || x % 2 = 0 -> false 
     | _ ->
         let maxDiv = int (sqrt (float x)) 
         let rec f (d : int) : bool = 
