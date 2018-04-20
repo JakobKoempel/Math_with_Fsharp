@@ -21,6 +21,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex009_special_Pythagorean_t
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex016_power_digit_sum", "ex016_power_digit_sum\ex016_power_digit_sum.fsproj", "{3E1F83A2-6630-4879-9267-AB005AED0E72}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex020_factorial_digit_sum", "ex020_factorial_digit_sum\ex020_factorial_digit_sum.fsproj", "{4EC56803-F28F-402C-A738-F26940A4BFA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{3E1F83A2-6630-4879-9267-AB005AED0E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E1F83A2-6630-4879-9267-AB005AED0E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E1F83A2-6630-4879-9267-AB005AED0E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EC56803-F28F-402C-A738-F26940A4BFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC56803-F28F-402C-A738-F26940A4BFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC56803-F28F-402C-A738-F26940A4BFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC56803-F28F-402C-A738-F26940A4BFA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
