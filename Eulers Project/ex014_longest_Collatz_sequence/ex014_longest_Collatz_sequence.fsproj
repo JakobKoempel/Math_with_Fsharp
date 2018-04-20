@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>c9b00148-63d2-4904-a5fc-5ec9599fa88f</ProjectGuid>
+    <ProjectGuid>f241a9b4-bd51-4c7f-9a3a-0d27e3ac1bed</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ex014_longest_Collatz_sequence</RootNamespace>
     <AssemblyName>ex014_longest_Collatz_sequence</AssemblyName>
