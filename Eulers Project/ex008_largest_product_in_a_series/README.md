@@ -42,4 +42,28 @@ File.ReadLines "Series.txt"
 Walkthrough
 ---
 
-The 1000-digit number is stored in a tex file . So in order to begin we have to open each line of the text file, convert the resulting string array into one char array and finally convert the char array into a int array.
+The 1000-digit number is stored in a tex file . So in order to begin we have to open each line of the text file, convert the resulting string array into one char array and finally convert the char array into a int64 array. 
+
+```fsharp
+open System.IO
+
+File.ReadLines "Series.txt" 
+|> Seq.concat 
+|> Seq.map (fun i -> int64 i - int64 '0')
+```
+So after doing this we end up with one int64 array that contains all the digits of the original 1000-digit number. The type int64 has to be used because in later operations the numbers exceed the int range.
+
+Now that we have the int array of all digits we only have to calculate all products of 13 adjacent numbers store them in a list and find the largest. 
+
+```fsharp
+|> Seq.windowed 13  
+|> Seq.map (Array.reduce (*))
+|> Seq.max 
+|> printfn("%i")
+```
+
+In order to get all combinations of 13 adjacent elements in a sequence, I have used the Seq.windowed command. This command takes an int value and a sequence as arguments and returns a sequece which yields sliding windows with the size of the int value containing elements drawn from the input sqeuence. The numbers in every array in the new sequence are then all multiplied. The resulting sequence does now only contain int64 values and thus we can pipe it into then Seq.max function.
+
+Result
+---
+The result equals to 23514624000.
