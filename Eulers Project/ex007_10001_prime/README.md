@@ -1,6 +1,6 @@
 # Finding the 10001th prime number
 
-This porject contains the solution for the 7th problem. The task is to find the 10001th prime number. 
+This project contains the solution for the 7th problem. The task is to find the 10001th prime number. 
 
 Solution
 ---
