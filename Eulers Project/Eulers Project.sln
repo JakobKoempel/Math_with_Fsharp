@@ -27,8 +27,6 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex074_digit_factorial_chain
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex025_1000_digit_fibonacci_number", "ex025_1000_digit_fibonacci_number\ex025_1000_digit_fibonacci_number.fsproj", "{877AD74F-B5FD-40F7-837E-56874A5E6DC2}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex013_large_sum", "ex013_large_sum\ex013_large_sum.fsproj", "{F361BF7F-177C-4E48-A1D2-310CEC6F4E93}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,10 +81,6 @@ Global
 		{877AD74F-B5FD-40F7-837E-56874A5E6DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{877AD74F-B5FD-40F7-837E-56874A5E6DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{877AD74F-B5FD-40F7-837E-56874A5E6DC2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F361BF7F-177C-4E48-A1D2-310CEC6F4E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F361BF7F-177C-4E48-A1D2-310CEC6F4E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F361BF7F-177C-4E48-A1D2-310CEC6F4E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F361BF7F-177C-4E48-A1D2-310CEC6F4E93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
