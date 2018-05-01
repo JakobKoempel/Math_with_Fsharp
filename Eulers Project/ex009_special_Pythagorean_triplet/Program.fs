@@ -5,7 +5,7 @@ let findTripletWithCircumferenceOf (target : int) : int * int * int =
     let hypotenuse (a : int, b : int) : float = sqrt(float(a * a + b * b))  
     let rec f (a : int, b : int) : int * int * int =
         let c = hypotenuse (a, b)
-        if isWholeNumber c then 
+        if c |> isWholeNumber then 
             match a + b + int c with
                 | circumference when circumference < target -> f (a, b + 1)
                 | circumference when circumference > target -> f (a + 1, a + 2)
