@@ -1,5 +1,5 @@
 ﻿let rec factorial (n : bigint) : bigint =
-        if n = 1I then 1I
+        if n = 0I then 1I
         else n * factorial (n - 1I) 
 
 string (factorial 100I)
