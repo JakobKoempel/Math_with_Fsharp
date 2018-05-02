@@ -1,4 +1,4 @@
-# factorial digit sum
+# Factorial digit sum
 
 In this problem the task was to find the sum of the digits in the number 100!
 
