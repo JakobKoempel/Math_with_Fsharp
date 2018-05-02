@@ -4,7 +4,6 @@
 let isPrime (x : int64) : bool = 
     match x with
     | _ when 2L = x -> true   
-    | _ when 2L > x  || x % 2L = 0L -> false 
     | _ ->
         let maxDiv = int64 (sqrt (float x)) 
         let rec f (d : int64) : bool = 
