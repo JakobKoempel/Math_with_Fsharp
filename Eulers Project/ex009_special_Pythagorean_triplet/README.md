@@ -30,13 +30,15 @@ printfn("%i") <| (a * b * c)
 Walkthrough
 ---
 
-We start off by writing a function that takes a target circumference as an argument and returns 3 values stored in a tuple which represent each variable, a, b and c, of the triplet.
+We start off by writing a function that takes a target circumference as an argument and 
+returns 3 values stored in a tuple which represent each variable, a, b and c, of the triplet.
 
 ````fsharp
 let findTripletWithCircumferenceOf (target : int) : int * int * int = ...
 ```
 
-We know that a and b can only be natrual numbers and that b must be larger than a. So we can iterate through all possibilities by a tail recrusive function called 'f' starting by a = 1 and b = 2.
+We know that a and b can only be natrual numbers and that b must be larger than a. 
+So we can iterate through all possibilities by a tail recrusive function called 'f' starting by a = 1 and b = 2.
 For each set of values for a and b we can calculate c.
 
 ````fsharp
@@ -48,7 +50,9 @@ let findTripletWithCircumferenceOf (target : int) : int * int * int =
     f (1, 2)
 ```
 
-Since c also has to be a natural number in order to fulfill the condition, we dont even have to test if the circumference of the the triangle equals the target circumference when c is not an natural number. 
+Since c also has to be a natural number in order to fulfill the condition, 
+we dont even have to test if the circumference of the the triangle equals the target circumference 
+when c is not an natural number. 
 To test if c is a natural number we need another function called 'isWholeNumber'.
 
 ```fsharp
@@ -64,9 +68,11 @@ let findTripletWithCircumferenceOf (target : int) : int * int * int =
         else ...
     f (1, 2)
 ```
-(Note: strictly the function 'isWholeNumber' only tests if a number is a whole number but since we are only dealing with positive integers here it does not matter)
+(Note: strictly the function 'isWholeNumber' only tests if a number is a whole number
+but since we are only dealing with positive integers here it does not matter)
 
-If c is not a natural number we can just test if the next pair of values for a and b. If c is natural we can start testing the circumference.
+If c is not a natural number we can just test if the next pair of values for a and b. 
+If c is natural we can start testing the circumference.
 
 ```fsharp
 let findTripletWithCircumferenceOf (target : int) : int * int * int =
