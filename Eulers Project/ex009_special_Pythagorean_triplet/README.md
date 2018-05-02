@@ -33,7 +33,7 @@ Walkthrough
 We start off by writing a function that takes a target circumference as an argument and 
 returns 3 values stored in a tuple which represent each variable, a, b and c, of the triplet.
 
-````fsharp
+```fsharp
 let findTripletWithCircumferenceOf (target : int) : int * int * int = ...
 ```
 
@@ -41,7 +41,7 @@ We know that a and b can only be natrual numbers and that b must be larger than 
 So we can iterate through all possibilities by a tail recrusive function called 'f' starting by a = 1 and b = 2.
 For each set of values for a and b we can calculate c.
 
-````fsharp
+```fsharp
 let findTripletWithCircumferenceOf (target : int) : int * int * int =
     let hypotenuse (a : int, b : int) : float = sqrt(float(a * a + b * b))  
     let rec f (a : int, b : int) : int * int * int =
