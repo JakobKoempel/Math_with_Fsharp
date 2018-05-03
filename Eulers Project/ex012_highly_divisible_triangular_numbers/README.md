@@ -73,7 +73,7 @@ let countDivisors (x : int) : int =
 But this function won't give us the the correct answer for all cases. Let **x** be 25 and we just tested that 5 is a divisor of 25. In the code above 'divCount' would increase by 2 even though 25 divided by 5 also equals 5. So we need to add a third option in case 
 **i** * **i** equals **x**.
 
-```fshapr
+```fsharp
 let countDivisors (x : int) : int = 
     let rec loop (i : int) (divCount : int) : int = 
         match i * i with
