@@ -1,4 +1,4 @@
-# Project Euler
+# Math with F#
 
-This repository contains my solutions for problems, uploaded on the website [Project Euler](https://projecteuler.net/about). 
+This repository contains all kinds of mathematical problems which I solved using F#
 ---
