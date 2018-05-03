@@ -7,4 +7,4 @@ File.ReadAllLines "Series.txt"
 |> Seq.take 10
 |> Seq.fold (fun acc i -> acc + string i) ""
 |> int64
-|>printfn("%i") 
+|> printfn("%i") 
