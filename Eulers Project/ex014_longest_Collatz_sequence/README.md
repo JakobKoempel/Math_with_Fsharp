@@ -2,11 +2,12 @@
 
 In this problem the task was to find the longest Collatz sequence starting below one million.
 
-A Collatz sequence is created by following rules:
+A Collatz sequence is created by following rules:    
 -if the number is even, divide it by two
 -if the number is odd, triple it and add one
 
-Any natural number can be given as an input and the sequence will allways end on the number 1. (Note: it is not proven that for every starting number the Collatz sequence will eventually reach 1 but it is highly suggested. Read more)
+Any natural number can be given as an input and the sequence will allways end on the number 1.    
+(Note: it is not proven that for every starting number the Collatz sequence will eventually reach 1 but it is highly suggested. Read more)
 But depending on the starting number it takes a different amount of steps to get the the end.
 
 Solution
