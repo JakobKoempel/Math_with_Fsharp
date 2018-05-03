@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>44bcf885-6b58-4580-9243-ccc4f0f34167</ProjectGuid>
+    <ProjectGuid>ab0ce8c4-4c54-4ea8-9166-7914a8a2fa9d</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>integral_basic</RootNamespace>
     <AssemblyName>integral_basic</AssemblyName>
@@ -71,7 +71,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.ValueTuple">
-      <HintPath>packages\System.ValueTuple.4.3.1\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+      <HintPath>..\packages\System.ValueTuple.4.3.1\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
