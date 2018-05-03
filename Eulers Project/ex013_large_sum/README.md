@@ -67,4 +67,4 @@ File.ReadAllLines "Series.txt"
 Result
 ---
 
-The result equals to 5537376230
+The result equals to 5537376230.
