@@ -1,4 +1,4 @@
-# Digit factoria chain
+# Digit factorial chain
 
 The 74th problem was slightly more difficult to solve. As in April 2018, only 20.000 people solved it so far.   
 In this problem the task was to find how many digit factorial chains, with a starting number below one million, contain exactly sixty non-repeating terms.
