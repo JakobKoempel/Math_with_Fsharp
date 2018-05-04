@@ -4,7 +4,7 @@
 
 let factorial : int[] = Array.init 10 (fun i -> fac i) //dynamic programming optimization
 
-let digitFacChain (start : int) : int =
+let digitFacChainLength (start : int) : int =
    let rec loop (x : int) (tested : int list) : int =
         let facDigitSum = string x 
                           |> Seq.fold  (fun acc digit -> 
@@ -15,6 +15,6 @@ let digitFacChain (start : int) : int =
    loop start [start]  
 
 Seq.init 1_000_000 id
-|> Seq.filter (fun i -> digitFacChain i = 60)
+|> Seq.filter (fun i -> digitFacChainLength i = 60)
 |> Seq.length
 |> printfn("%i")
