@@ -47,7 +47,7 @@ let rec fac (n : int) : int =
     else fac (n - 1) * n
 ```
 
-But since we know we will only need to calculate the factorial of numbers between 0 and 9, we can create an array with 10 elements which stores the factorial for each digit. This way, we don't have to calculate the same 10 different factorials millions of times but can instead just refferer to the array.
+But since we know we will only need to calculate the factorials of numbers between 0 and 9, we can create an array with 10 elements which stores the factorial for each digit. This way, we don't have to calculate the same 10 different factorials millions of times but can instead just refferer to the array.
 
 ```fsharp
 let factorial : int[] = Array.init 10 (fun i -> fac i) //dynamic programming optimization
@@ -62,7 +62,7 @@ let digitFacChainLength (start : int) : int =
    loop start [start] 
 ```
 
-Inside the loop function we first create the digit factorial sum of the current element. Then we test if the sequence alread contains the element or if it doesn't. In case it does we end the recursion and return the length of the list. In case it doesn't we continue to iterate through the sequence until we find a non-repeating term.
+Inside the loop function we first create the digit factorial sum of the current element. Then we test if the sequence already contains the element or if it doesn't. In case it does we end the recursion and return the length of the list. In case it doesn't we continue to iterate through the sequence until we find a non-repeating term.
 
 ```fsharp
 let digitFacChainLength (start : int) : int =
