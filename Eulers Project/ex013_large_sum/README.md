@@ -50,7 +50,7 @@ File.ReadAllLines "Series.txt"
 |> Seq.take 10
 ```
 
-Thsi gives us a char sequence. We can convert the char sequence into a string again by using a 'Seq.fold' function and print out the result.
+This gives us a char sequence. We can convert the char sequence into a string again by using a 'Seq.fold' function and print out the result.
 
 ```fsharp
 open System.IO
