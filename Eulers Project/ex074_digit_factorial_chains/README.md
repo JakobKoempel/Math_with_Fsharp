@@ -46,8 +46,7 @@ let rec fac (n : int) : int =
     if n = 0 then 1
     else fac (n - 1) * n
 ```
-
-But since we know we will only need to calculate the factorials of numbers between 0 and 9, we can create an array with 10 elements which stores the factorial for each digit. This way, we don't have to calculate the same 10 different factorials millions of times but can instead just refferer to the array.
+But since we know we will only need to calculate the factorials of numbers between 0 and 9, we can create an array with 10 elements which stores the factorial for each digit. This way we don't have to calculate the same 10 different factorials millions of times but can instead just refer to the array.
 
 ```fsharp
 let factorial : int[] = Array.init 10 (fun i -> fac i) //dynamic programming optimization
